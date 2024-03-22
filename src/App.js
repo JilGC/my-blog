@@ -1,4 +1,7 @@
 import './App.css';
+
+import NavBar from "./NavBar";
+
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
 import ArticlesListPage from './pages/ArticlesListPage';
@@ -9,9 +12,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
 
+
     <BrowserRouter>
       <div className="App">
-        <h1>My Awesome Blog</h1>
+        <NavBar />
 
         <div id="page-body">
 
